@@ -1,0 +1,42 @@
+header {
+  background-color: lightblue;
+  text-align: right;
+}
+
+header img {
+  width: 50px;
+  display: inline-block;
+}
+
+header li {
+  display: inline-block;
+  padding: 50px;
+}
+
+#banner {
+  background: url('../../images/park.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#banner img {
+  border-radius: 50%;
+}
+
+.button {
+  text-decoration: none;
+  border: 5px solid lightblue;
+  padding: 8px;
+  background: white;
+  color: lightblue;
+}
+
+.button:hover {
+  background: lightblue;
+  color: white;
+}
+
+.three-column {
+width: 30%;
+display: inline-block;
+}
